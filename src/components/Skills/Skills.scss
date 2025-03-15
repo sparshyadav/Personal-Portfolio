@@ -14,7 +14,6 @@
     display: flex;
     flex-direction: column;
     gap: 25px;
-    // border: 1px solid white;
 }
 
 .skills-upper-container {
@@ -25,44 +24,43 @@
     font-weight: 600;
 }
 
-.icon{
+.icon {
     color: grey;
     height: 35px;
     width: 35px;
 }
 
-.skill-icon{
+.skill-icon {
     color: #48E5C2;
 }
 
-.skills-lower-container{
+.skills-lower-container {
     border-radius: 5px;
     width: 75%;
     background-color: #1E1E1E;
     display: flex;
     flex-wrap: wrap;
     gap: 25px;
-    // border: 1px solid yellow;
     margin: 0 2.5%;
     padding: 15px 10px;
 }
 
-.skill-container{
+.skill-container {
     display: flex;
     gap: 5px;
 }
 
-@media(max-width: 768px){
-    .skills-lower-container{
+@media(max-width: 768px) {
+    .skills-lower-container {
         width: 95%;
     }
 
-    .skill-container{
+    .skill-container {
         display: flex;
         align-items: center;
     }
 
-    .skill-text{
+    .skill-text {
         font-size: 12px;
     }
 }
