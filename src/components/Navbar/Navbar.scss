@@ -1,4 +1,4 @@
-.navbar-main-container{
+.navbar-main-container {
     height: 80px;
     width: 100%;
     background-color: #1E1E1E;
@@ -7,38 +7,35 @@
     justify-content: center;
     border-bottom: 0.5px solid rgb(93, 93, 93);
     padding-bottom: 25px;
-    // border: 1px solid pink;
 }
 
-.navbar-center-container{
-    // border: 1px solid yellow;
+.navbar-center-container {
     width: 80%;
     height: 100%;
     display: flex;
     align-items: center;
 }
 
-.navbar-title-container{
-    // border: 1px solid green;
+.navbar-title-container {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.navbar-title{
+.navbar-title {
     margin-top: 15px;
     font-size: 30px;
     font-weight: 600;
 }
 
-@media (max-width: 768px){
-    .navbar-title{
+@media (max-width: 768px) {
+    .navbar-title {
         font-size: 25px;
     }
 }
 
-@media(max-width: 425px){
-    .navbar-title{
+@media(max-width: 425px) {
+    .navbar-title {
         font-size: 20px;
     }
 }
