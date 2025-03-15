@@ -1,4 +1,3 @@
-import React from 'react'
 import './Summary.scss'
 import { User } from 'lucide-react';
 
