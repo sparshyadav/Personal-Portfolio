@@ -4,7 +4,7 @@ import { Briefcase, MapPin } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 
 function PhotoContainer() {
-    const navigate=useNavigate();
+    const navigate = useNavigate();
     return (
         <div className='photo-main-container'>
             <div className='photo-center-container'>
@@ -31,7 +31,7 @@ function PhotoContainer() {
                         </div>
                     </div>
                     <div className='lower-contact'>
-                            <button onClick={()=>navigate('/contact')}>Contact Me</button>
+                        <button onClick={() => navigate('/contact')}>Contact Me</button>
                     </div>
                 </div>
             </div>
