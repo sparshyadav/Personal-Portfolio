@@ -15,6 +15,7 @@ const ContactForm: React.FC = () => {
     employmentType: [] as string[],
     additionalInfo: [] as string[]
   });
+  const [btnClicked, setBtnClicked] = useState(false);
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const { name, value } = e.target;
@@ -399,13 +400,24 @@ const ContactForm: React.FC = () => {
                 <p>Looking forward to hearing from you!</p>
                 <p>{formData.fullName}</p>
               </div>
+              {
+                btnClicked ?
+                  <button
+                    type="submit"
+                    className="submit-button"
+                    disabled
+                  >
+                    Send
+                  </button> :
+                  <button
+                    type="submit"
 
-              <button
-                type="submit"
-                className="submit-button"
-              >
-                Send
-              </button>
+                    className="submit-button"
+                    onClick={() => setBtnClicked(true)}
+                  >
+                    Send
+                  </button>
+              }
             </div>
 
             <div className="terms-notice">
