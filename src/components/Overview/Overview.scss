@@ -1,0 +1,148 @@
+.overview-main-container {
+    background-color: #121212;
+    width: 100%;
+    // height: 250px;
+    // border: 1px solid salmon;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 45px 0 0 0;
+}
+
+.overview-center-container {
+    height: 100%;
+    width: 80%;
+    // border: 1px solid green;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.overview-upper-container {
+    height: 25%;
+    // border: 1px solid yellow;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.icons{
+    color: grey;
+}
+
+.overview-lower-container{
+    height: 75%;
+    // border: 1px solid blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.overview-lower-center-container{
+    // border: 1px solid purple;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.overview-card{
+    border-radius: 5px;
+    background-color: #1E1E1E;
+    width: 45%;
+    display: flex;
+    height: 210px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.overview-card-number{
+    font-size: 85px;
+    width: 25%;
+    // border: 1px solid greenyellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #48E5C2;
+    font-weight: 600;
+}
+
+.overview-card-text{
+    font-size: 20px;
+    width: 75%;
+    z-index: 1;
+}
+
+.overview-opacity{
+    position: absolute;
+    right: -7%;
+    font-size: 165px;
+    // opacity: 0.5;
+    color: #282828;
+    font-weight: 750;
+    z-index: 0;
+}
+
+.icon{
+    color: grey;
+    height: 35px;
+    width: 35px;
+}
+
+@media(max-width: 768px){
+    .overview-card{
+        height: 175px;
+    }
+
+    .overview-card-number{
+        font-size: 65px;
+        width: 25%;
+        // border: 1px solid greenyellow;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #48E5C2;
+        font-weight: 600;
+    }
+    
+    .overview-card-text{
+        font-size: 15px;
+        width: 75%;
+        z-index: 1;
+    }
+    
+    .overview-opacity{
+        position: absolute;
+        right: -7%;
+        font-size: 135px;
+        // opacity: 0.5;
+        color: #282828;
+        font-weight: 750;
+        z-index: 0;
+    }
+}
+
+@media (max-width: 580px) {
+    .overview-card{
+        flex-direction: column;
+        // justify-content: space-between;
+        // gap: 10px;
+    }
+
+    .overview-card-number{
+        width: 100%;
+        // height: 45%;
+        // border: 1px solid rebeccapurple;
+    }
+
+    .overview-card-text{
+        height: 50%;
+    }
+
+    .overview-opacity{
+        display: none;
+    }
+}
