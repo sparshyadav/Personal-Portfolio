@@ -1,4 +1,3 @@
-import React from 'react'
 import './Overview.scss';
 import { NotebookTabs } from 'lucide-react';
 
