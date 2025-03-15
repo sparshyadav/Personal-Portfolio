@@ -11,8 +11,8 @@ function Skills() {
                     <p>Skills</p>
                 </div>
                 <div className='skills-lower-container'>
-                    {skills.map((skill) => (
-                        <div className='skill-container'>
+                    {skills.map((skill, index) => (
+                        <div key={index} className='skill-container'>
                             <div className='skill-icon'><CircleDot /></div>
                             <div className='skill-text'>{skill}</div>
                         </div>

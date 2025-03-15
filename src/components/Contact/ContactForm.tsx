@@ -15,7 +15,7 @@ const ContactForm: React.FC = () => {
     employmentType: [] as string[],
     additionalInfo: [] as string[]
   });
-  const [btnClicked, setBtnClicked] = useState(false);
+  // const [btnClicked, setBtnClicked] = useState(false);
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const { name, value } = e.target;
@@ -68,6 +68,7 @@ const ContactForm: React.FC = () => {
   };
 
   const handleSubmit = (e: React.FormEvent) => {
+    console.log("Send Button Clicked:");
     e.preventDefault();
 
     const {
@@ -400,14 +401,14 @@ const ContactForm: React.FC = () => {
                 <p>Looking forward to hearing from you!</p>
                 <p>{formData.fullName}</p>
               </div>
-              <button
-                type="submit"
-                className="submit-button"
-                disabled={btnClicked}
-                onClick={() => setBtnClicked(true)}
-              >
-                Send
-              </button>
+              {/* <div onClick={() => setBtnClicked(true)}> */}
+                <button
+                  type="submit"
+                  className="submit-button"
+                >
+                  Send
+                </button>
+              {/* </div> */}
             </div>
             <div className="terms-notice">
               <p>
