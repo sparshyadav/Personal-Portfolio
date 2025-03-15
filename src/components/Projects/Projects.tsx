@@ -64,7 +64,7 @@ const projectsData: Project[] = [
             "Integrated React Router for smooth navigation between different sections.",
             "Deployed on Vercel, ensuring high availability and fast performance."
         ]
-    },        
+    },
     {
         id: 4,
         title: "Listify: Task Management App",
