@@ -400,26 +400,15 @@ const ContactForm: React.FC = () => {
                 <p>Looking forward to hearing from you!</p>
                 <p>{formData.fullName}</p>
               </div>
-              {
-                btnClicked ?
-                  <button
-                    type="submit"
-                    className="submit-button"
-                    disabled
-                  >
-                    Send
-                  </button> :
-                  <button
-                    type="submit"
-
-                    className="submit-button"
-                    onClick={() => setBtnClicked(true)}
-                  >
-                    Send
-                  </button>
-              }
+              <button
+                type="submit"
+                className="submit-button"
+                disabled={btnClicked}
+                onClick={() => setBtnClicked(true)}
+              >
+                Send
+              </button>
             </div>
-
             <div className="terms-notice">
               <p>
                 By clicking "send", you accept our Terms of Service and Privacy Policy. We will forward your contact request, however it is up to the receiver if the request is answered.
