@@ -1,4 +1,3 @@
-import React from 'react'
 import Education from '../components/Education/Education'
 import Navbar from '../components/Navbar/Navbar'
 import Overview from '../components/Overview/Overview'
