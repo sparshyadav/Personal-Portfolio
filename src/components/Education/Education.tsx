@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import './Education.scss'
 import { GraduationCap, Dot } from 'lucide-react';
 
@@ -55,7 +55,6 @@ function Education() {
                             <div key={job.id} className='work-card'>
                                 <div className='work-card-image'>
                                     <div className='work-card-image-container'>
-                                        {/* <Briefcase className='icons logo-icon' /> */}
                                         <GraduationCap className='icons logo-icon' />
                                     </div>
                                 </div>
