@@ -14,10 +14,10 @@ interface WorkExperience {
 const workExperience: WorkExperience[] = [
     {
         id: 1,
-        designation: "Software Developer",
+        designation: "Software Developer Intern",
         company: "Magic Software",
         location: "Noida, Uttar Pradesh",
-        timeline: "04.2024 - Current",
+        timeline: "04.2025 - 06.2025",
         description: [
             "Developed robust, scalable, modular, and API-centric infrastructures, improving system performance by 30%.",
             "Conducted thorough code reviews for projects, identifying and implementing improvements that enhanced code quality and reduced bugs by 25%.",
@@ -29,9 +29,9 @@ const workExperience: WorkExperience[] = [
     {
         id: 2,
         designation: "Software Developer",
-        company: "Microsoft",
-        location: "Gurugram, Haryana",
-        timeline: "08.2024 - Current",
+        company: "Magic Software",
+        location: "Noida, Uttar Pradesh",
+        timeline: "07.2025 - Current",
         description: [
             "Developed robust, scalable, modular, and API-centric infrastructures, improving system performance by 30%.",
             "Conducted thorough code reviews for projects, identifying and implementing improvements that enhanced code quality and reduced bugs by 25%.",
